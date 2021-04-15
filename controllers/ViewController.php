@@ -38,10 +38,14 @@ class ViewController extends Controller
         $searchModel = new ViewSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
+        return $this->render('index', compact('searchModel', 'dataProvider'));
+        /*
         return $this->render('index', [
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
         ]);
+         * 
+         */
     }
 
     /**

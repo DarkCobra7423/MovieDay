@@ -35,7 +35,7 @@ class AgeclassificationController extends Controller {
     public function actionIndex() {
         $searchModel = new AgeclassificationSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
-
+        
         return $this->render('index', compact('searchModel', 'dataProvider'));
         /*
           return $this->render('index', [

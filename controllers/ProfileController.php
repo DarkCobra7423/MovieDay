@@ -38,10 +38,14 @@ class ProfileController extends Controller
         $searchModel = new ProfileSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
+        return $this->render('index', compact('searchModel', 'dataProvider'));
+        /*
         return $this->render('index', [
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
         ]);
+         * 
+         */
     }
 
     /**
