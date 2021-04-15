@@ -46,6 +46,7 @@ $config = [
             ],
         ],
         'db' => $db,
+        /*
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
@@ -55,6 +56,8 @@ $config = [
                 '<controller:\w+>/<action:\w+>' => '<controller>/<action>'
             ],
         ],
+         * 
+         */
     /*
       'urlManager' => [
       'enablePrettyUrl' => true,
