@@ -61,16 +61,16 @@ class Multimedia extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'idmultimedia' => 'Idmultimedia',
+            'idmultimedia' => 'Id',
             'titulo' => 'Titulo',
             'description' => 'Description',
             'year' => 'Year',
             'file' => 'File',
             'trailer' => 'Trailer',
-            'fkcategory' => 'Fkcategory',
-            'fkageclassification' => 'Fkageclassification',
-            'fktipoformat' => 'Fktipoformat',
-            'fkaudio' => 'Fkaudio',
+            'fkcategory' => 'Category',
+            'fkageclassification' => 'Age Classification',
+            'fktipoformat' => 'Format Type',
+            'fkaudio' => 'Audio',
         ];
     }
 

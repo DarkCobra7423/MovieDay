@@ -5,7 +5,7 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\Tipoformat */
 
-$this->title = 'Create Tipoformat';
+$this->title = 'Create Format Type';
 $this->params['breadcrumbs'][] = ['label' => 'Tipoformats', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>

@@ -5,7 +5,7 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\Genremultimedia */
 
-$this->title = 'Update Genremultimedia: ' . $model->fkgenre;
+$this->title = 'Update Genre Multimedia: ' . $model->fkgenre;
 $this->params['breadcrumbs'][] = ['label' => 'Genremultimedia', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->fkgenre, 'url' => ['view', 'fkgenre' => $model->fkgenre, 'fkmultimedia' => $model->fkmultimedia]];
 $this->params['breadcrumbs'][] = 'Update';

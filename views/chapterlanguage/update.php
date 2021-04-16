@@ -5,7 +5,7 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\Chapterlanguage */
 
-$this->title = 'Update Chapterlanguage: ' . $model->fkchapter;
+$this->title = 'Update Chapter language: ' . $model->fkchapter;
 $this->params['breadcrumbs'][] = ['label' => 'Chapterlanguages', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->fkchapter, 'url' => ['view', 'fkchapter' => $model->fkchapter, 'fklanguage' => $model->fklanguage]];
 $this->params['breadcrumbs'][] = 'Update';

@@ -5,7 +5,7 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\Multimediaprotagonist */
 
-$this->title = 'Update Multimediaprotagonist: ' . $model->fkmultimedia;
+$this->title = 'Update Multimedia Protagonist: ' . $model->fkmultimedia;
 $this->params['breadcrumbs'][] = ['label' => 'Multimediaprotagonists', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->fkmultimedia, 'url' => ['view', 'fkmultimedia' => $model->fkmultimedia, 'fkprotagonist' => $model->fkprotagonist]];
 $this->params['breadcrumbs'][] = 'Update';

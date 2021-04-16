@@ -2,6 +2,12 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
+use yii\helpers\ArrayHelper;
+use app\models\Multimedia;
+use app\models\Protagonist;
+
+$multimedia = ArrayHelper::map(Multimedia::find()->all(), 'idmultimedia', 'titulo');
+$protagonist = ArrayHelper::map(Protagonist::find()->all(), 'idprotagonist', 'protagonist');
 
 /* @var $this yii\web\View */
 /* @var $model app\models\Multimediaprotagonist */
@@ -12,9 +18,9 @@ use yii\widgets\ActiveForm;
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?= $form->field($model, 'fkmultimedia')->textInput() ?>
+    <?= $form->field($model, 'fkmultimedia')->dropDownList($multimedia, ['prompt' => 'Seleccione uno']) ?>
 
-    <?= $form->field($model, 'fkprotagonist')->textInput() ?>
+    <?= $form->field($model, 'fkprotagonist')->dropDownList($protagonist, ['prompt' => 'Seleccione uno']) ?>
 
     <div class="form-group">
         <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>

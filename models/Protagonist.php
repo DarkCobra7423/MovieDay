@@ -40,7 +40,7 @@ class Protagonist extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'idprotagonist' => 'Idprotagonist',
+            'idprotagonist' => 'Id',
             'protagonist' => 'Protagonist',
         ];
     }

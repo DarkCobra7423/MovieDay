@@ -49,13 +49,13 @@ class Profile extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'idprofile' => 'Idprofile',
+            'idprofile' => 'Id',
             'name' => 'Name',
-            'lastname' => 'Lastname',
-            'motherlastname' => 'Motherlastname',
+            'lastname' => 'Last name',
+            'motherlastname' => "Mother's last name",
             'birth' => 'Birth',
             'photo' => 'Photo',
-            'fkuser' => 'Fkuser',
+            'fkuser' => 'User',
         ];
     }
 

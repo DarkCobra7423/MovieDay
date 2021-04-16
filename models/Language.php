@@ -40,7 +40,7 @@ class Language extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'idlanguage' => 'Idlanguage',
+            'idlanguage' => 'Id',
             'language' => 'Language',
         ];
     }

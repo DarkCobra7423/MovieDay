@@ -46,10 +46,10 @@ class Season extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'idseason' => 'Idseason',
+            'idseason' => 'Id',
             'season' => 'Season',
             'picture' => 'Picture',
-            'fkmultimedia' => 'Fkmultimedia',
+            'fkmultimedia' => 'Multimedia',
             'year' => 'Year',
         ];
     }

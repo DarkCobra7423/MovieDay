@@ -2,6 +2,10 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
+use yii\helpers\ArrayHelper;
+use app\models\Multimedia;
+
+$multimedia = ArrayHelper::map(Multimedia::find()->all(), 'idmultimedia', 'titulo');
 
 /* @var $this yii\web\View */
 /* @var $model app\models\Season */
@@ -16,7 +20,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'picture')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'fkmultimedia')->textInput() ?>
+    <?= $form->field($model, 'fkmultimedia')->dropDownList($multimedia, ['prompt' => 'Seleccione uno']) ?>
 
     <?= $form->field($model, 'year')->textInput(['maxlength' => true]) ?>
 

@@ -48,11 +48,11 @@ class Chapter extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'idcapter' => 'Idcapter',
+            'idcapter' => 'Id',
             'name' => 'Name',
             'file' => 'File',
             'duration' => 'Duration',
-            'fkseason' => 'Fkseason',
+            'fkseason' => 'Season',
         ];
     }
 

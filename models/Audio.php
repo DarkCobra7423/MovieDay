@@ -38,7 +38,7 @@ class Audio extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'idaudio' => 'Idaudio',
+            'idaudio' => 'Id',
             'audio' => 'Audio',
         ];
     }

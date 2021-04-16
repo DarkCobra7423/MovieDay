@@ -2,10 +2,13 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
-
+use yii\helpers\ArrayHelper;
+use app\models\Season;
 /* @var $this yii\web\View */
 /* @var $model app\models\Chapter */
 /* @var $form yii\widgets\ActiveForm */
+//$season = ArrayHelper::map(Season::find()->all(), 'idseason', 'season');
+$season = ArrayHelper::map(Season::find()->all(), 'idseason', 'season');
 ?>
 
 <div class="chapter-form">
@@ -18,7 +21,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'duration')->textInput() ?>
 
-    <?= $form->field($model, 'fkseason')->textInput() ?>
+    <?= $form->field($model, 'fkseason')->dropDownList($season, ['prompt' => 'Selecione uno']) ?>
 
     <div class="form-group">
         <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>

@@ -43,8 +43,8 @@ class Genremultimedia extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'fkgenre' => 'Fkgenre',
-            'fkmultimedia' => 'Fkmultimedia',
+            'fkgenre' => 'Genre',
+            'fkmultimedia' => 'Multimedia',
         ];
     }
 

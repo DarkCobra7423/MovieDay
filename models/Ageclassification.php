@@ -39,8 +39,8 @@ class Ageclassification extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'idageclassification' => 'Idageclassification',
-            'ageclassification' => 'Ageclassification',
+            'idageclassification' => 'Id',
+            'ageclassification' => 'Age Classification',
         ];
     }
 

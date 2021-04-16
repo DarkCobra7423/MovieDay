@@ -38,8 +38,8 @@ class Tipoformat extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'idtipoformat' => 'Idtipoformat',
-            'tipoformat' => 'Tipoformat',
+            'idtipoformat' => 'Id',
+            'tipoformat' => 'Format Type',
         ];
     }
 

@@ -40,7 +40,7 @@ class Genre extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'idgenre' => 'Idgenre',
+            'idgenre' => 'Id',
             'genre' => 'Genre',
         ];
     }

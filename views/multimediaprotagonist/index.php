@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel app\models\MultimediaprotagonistSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Multimediaprotagonists';
+$this->title = 'Multimedia Protagonists';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="multimediaprotagonist-index">
@@ -15,7 +15,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Create Multimediaprotagonist', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Create Multimedia Protagonist', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>

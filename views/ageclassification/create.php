@@ -5,8 +5,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\Ageclassification */
 
-$this->title = 'Create Ageclassification';
-$this->params['breadcrumbs'][] = ['label' => 'Ageclassifications', 'url' => ['index']];
+$this->title = 'Create Age Classification';
+$this->params['breadcrumbs'][] = ['label' => 'Age Classifications', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="ageclassification-create">

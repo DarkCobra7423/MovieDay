@@ -43,8 +43,8 @@ class Multimediaprotagonist extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'fkmultimedia' => 'Fkmultimedia',
-            'fkprotagonist' => 'Fkprotagonist',
+            'fkmultimedia' => 'Multimedia',
+            'fkprotagonist' => 'Protagonist',
         ];
     }
 

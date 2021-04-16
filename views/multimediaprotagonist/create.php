@@ -5,7 +5,7 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\Multimediaprotagonist */
 
-$this->title = 'Create Multimediaprotagonist';
+$this->title = 'Create Multimedia Protagonist';
 $this->params['breadcrumbs'][] = ['label' => 'Multimediaprotagonists', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>

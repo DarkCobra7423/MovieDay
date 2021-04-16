@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel app\models\AgeclassificationSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Ageclassifications';
+$this->title = 'Age Classification';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="ageclassification-index">
@@ -15,7 +15,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Create Ageclassification', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Create Age Classification', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>

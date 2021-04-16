@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel app\models\AudioSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Audios';
+$this->title = 'Audio';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="audio-index">

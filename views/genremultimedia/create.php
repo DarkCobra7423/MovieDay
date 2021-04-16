@@ -5,7 +5,7 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\Genremultimedia */
 
-$this->title = 'Create Genremultimedia';
+$this->title = 'Create Genre Multimedia';
 $this->params['breadcrumbs'][] = ['label' => 'Genremultimedia', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>

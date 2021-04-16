@@ -43,8 +43,8 @@ class Chapterlanguage extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'fkchapter' => 'Fkchapter',
-            'fklanguage' => 'Fklanguage',
+            'fkchapter' => 'Chapter',
+            'fklanguage' => 'Language',
         ];
     }
 

@@ -5,8 +5,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\Ageclassification */
 
-$this->title = 'Update Ageclassification: ' . $model->idageclassification;
-$this->params['breadcrumbs'][] = ['label' => 'Ageclassifications', 'url' => ['index']];
+$this->title = 'Update Age Classification: ' . $model->idageclassification;
+$this->params['breadcrumbs'][] = ['label' => 'Age Classifications', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->idageclassification, 'url' => ['view', 'id' => $model->idageclassification]];
 $this->params['breadcrumbs'][] = 'Update';
 ?>
