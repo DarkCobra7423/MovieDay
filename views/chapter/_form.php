@@ -21,7 +21,7 @@ $season = ArrayHelper::map(Season::find()->all(), 'idseason', 'season');
 
     <?= $form->field($model, 'duration')->textInput() ?>
 
-    <?= $form->field($model, 'fkseason')->dropDownList($season, ['prompt' => 'Selecione uno']) ?>
+    <?= $form->field($model, 'fkseason')->dropDownList($season, ['prompt' => 'Select one']) ?>
 
     <div class="form-group">
         <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>

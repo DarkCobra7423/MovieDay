@@ -20,7 +20,7 @@ $multimedia = ArrayHelper::map(Multimedia::find()->all(), 'idmultimedia', 'titul
 
     <?= $form->field($model, 'picture')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'fkmultimedia')->dropDownList($multimedia, ['prompt' => 'Seleccione uno']) ?>
+    <?= $form->field($model, 'fkmultimedia')->dropDownList($multimedia, ['prompt' => 'Select one']) ?>
 
     <?= $form->field($model, 'year')->textInput(['maxlength' => true]) ?>
 

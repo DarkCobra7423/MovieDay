@@ -25,7 +25,7 @@ $user = ArrayHelper::map(User::find()->all(), 'id', 'username');
 
     <?= $form->field($model, 'photo')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'fkuser')->dropDownList($user, ['prompt' => 'Seleccione uno']) ?>
+    <?= $form->field($model, 'fkuser')->dropDownList($user, ['prompt' => 'Select one']) ?>
 
     <div class="form-group">
         <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>

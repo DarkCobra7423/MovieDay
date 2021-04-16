@@ -17,9 +17,9 @@ $multimedia = ArrayHelper::map(Multimedia::find()->all(), 'idmultimedia', 'titul
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?= $form->field($model, 'fkgenre')->dropDownList($genre, ['prompt' => 'Seleccionar uno']) ?>
+    <?= $form->field($model, 'fkgenre')->dropDownList($genre, ['prompt' => 'Select one']) ?>
 
-    <?= $form->field($model, 'fkmultimedia')->dropDownList($multimedia, ['prompt' => 'Seleccionar uno']) ?>
+    <?= $form->field($model, 'fkmultimedia')->dropDownList($multimedia, ['prompt' => 'Select one']) ?>
 
     <div class="form-group">
         <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>

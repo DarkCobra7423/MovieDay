@@ -18,9 +18,9 @@ $protagonist = ArrayHelper::map(Protagonist::find()->all(), 'idprotagonist', 'pr
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?= $form->field($model, 'fkmultimedia')->dropDownList($multimedia, ['prompt' => 'Seleccione uno']) ?>
+    <?= $form->field($model, 'fkmultimedia')->dropDownList($multimedia, ['prompt' => 'Select one']) ?>
 
-    <?= $form->field($model, 'fkprotagonist')->dropDownList($protagonist, ['prompt' => 'Seleccione uno']) ?>
+    <?= $form->field($model, 'fkprotagonist')->dropDownList($protagonist, ['prompt' => 'Select one']) ?>
 
     <div class="form-group">
         <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>

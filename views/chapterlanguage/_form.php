@@ -17,9 +17,9 @@ $language = ArrayHelper::map(Language::find()->all(), 'idlanguage', 'language');
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?= $form->field($model, 'fkchapter')->dropDownList($chapter, ['prompt' => 'Seleccionar uno']) ?>
+    <?= $form->field($model, 'fkchapter')->dropDownList($chapter, ['prompt' => 'Select one']) ?>
 
-    <?= $form->field($model, 'fklanguage')->dropDownList($language, ['prompt' => 'Seleccionar uno']) ?>
+    <?= $form->field($model, 'fklanguage')->dropDownList($language, ['prompt' => 'Select one']) ?>
 
     <div class="form-group">
         <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>

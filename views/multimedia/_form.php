@@ -32,13 +32,13 @@ $audio = ArrayHelper::map(Audio::find()->all(), 'idaudio', 'audio');
 
     <?= $form->field($model, 'trailer')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'fkcategory')->dropDownList($category, ['prompt' => 'Seleccionar uno']) ?>
+    <?= $form->field($model, 'fkcategory')->dropDownList($category, ['prompt' => 'Select one']) ?>
 
-    <?= $form->field($model, 'fkageclassification')->dropDownList($ageclassification, ['prompt' => 'Seleccionar uno']) ?>
+    <?= $form->field($model, 'fkageclassification')->dropDownList($ageclassification, ['prompt' => 'Select one']) ?>
 
-    <?= $form->field($model, 'fktipoformat')->dropDownList($tipoformat, ['prompt' => 'Seleccionar uno']) ?>
+    <?= $form->field($model, 'fktipoformat')->dropDownList($tipoformat, ['prompt' => 'Select one']) ?>
 
-    <?= $form->field($model, 'fkaudio')->dropDownList($audio, ['prompt' => 'Seleccionar uno']) ?>
+    <?= $form->field($model, 'fkaudio')->dropDownList($audio, ['prompt' => 'Select one']) ?>
 
     <div class="form-group">
         <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>
