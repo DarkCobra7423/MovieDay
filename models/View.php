@@ -45,9 +45,9 @@ class View extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'idview' => 'Idview',
-            'fkprofile' => 'Fkprofile',
-            'fkcapter' => 'Fkcapter',
+            'idview' => 'Id',
+            'fkprofile' => 'Profile',
+            'fkcapter' => 'Chapter',
             'valoration' => 'Valoration',
             'view' => 'View',
         ];

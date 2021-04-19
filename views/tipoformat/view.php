@@ -7,7 +7,7 @@ use yii\widgets\DetailView;
 /* @var $model app\models\Tipoformat */
 
 $this->title = $model->idtipoformat;
-$this->params['breadcrumbs'][] = ['label' => 'Tipoformats', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'formats type', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 \yii\web\YiiAsset::register($this);
 ?>

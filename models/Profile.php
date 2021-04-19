@@ -39,7 +39,7 @@ class Profile extends \yii\db\ActiveRecord
             [['fkuser'], 'integer'],
             [['name', 'lastname', 'motherlastname'], 'string', 'max' => 30],
             [['photo'], 'string', 'max' => 255],
-            [['fkuser'], 'exist', 'skipOnError' => true, 'targetClass' => User::className(), 'targetAttribute' => ['fkuser' => 'id']],
+            [['fkuser'], 'exist', 'skipOnError' => true, 'targetClass' => Usuario::className(), 'targetAttribute' => ['fkuser' => 'id']],
         ];
     }
 
@@ -66,7 +66,7 @@ class Profile extends \yii\db\ActiveRecord
      */
     public function getFkuser0()
     {
-        return $this->hasOne(User::className(), ['id' => 'fkuser']);
+        return $this->hasOne(Usuario::className(), ['id' => 'fkuser']);
     }
 
     /**
@@ -77,5 +77,9 @@ class Profile extends \yii\db\ActiveRecord
     public function getViews()
     {
         return $this->hasMany(View::className(), ['fkprofile' => 'idprofile']);
+    }
+    
+    public function getUsername(){
+        return $this->fkuser0->username;
     }
 }

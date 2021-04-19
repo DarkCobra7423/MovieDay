@@ -6,7 +6,7 @@ use yii\helpers\Html;
 /* @var $model app\models\Tipoformat */
 
 $this->title = 'Create Format Type';
-$this->params['breadcrumbs'][] = ['label' => 'Tipoformats', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'formats type', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="tipoformat-create">

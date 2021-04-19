@@ -6,7 +6,7 @@ use yii\helpers\Html;
 /* @var $model app\models\Tipoformat */
 
 $this->title = 'Update Format Type: ' . $model->idtipoformat;
-$this->params['breadcrumbs'][] = ['label' => 'Tipoformats', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'formats type', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->idtipoformat, 'url' => ['view', 'id' => $model->idtipoformat]];
 $this->params['breadcrumbs'][] = 'Update';
 ?>

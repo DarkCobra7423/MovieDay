@@ -1,0 +1,36 @@
+.botones  {
+    align: center;
+    width: 200px;
+    height: 200px;
+    padding: 100px 10px 10px 100x;
+    border:1 solid #ddd; 
+    cursor: pointer; 
+    display: inline-block; 
+    background-size: 50% 50%; 
+    background-repeat: no-repeat; 
+    background-position: center top;
+    border-radius: 10%;  
+}   
+.botones:nth-child(1) {background-color: #A02227; background-image:ur1(../img/planes.png);} 
+.botones:nth-child(2) {background-color: #348838; background-image:ur1(../img/oferta.png);}
+.botones:nth-child(3) {background-color: #4CA0F5; background-image:ur1(../img/profesores.png);
+                       background-position: 10% 5%;}
+.botones:nth-child(4) {background-color: #58A9AC; background-image:ur1(../img/carreras.png); background-size: cover;}
+.botones:nth-child(5) {background-color: #D27628; background-image:ur1(../img/carreras.png), ur1(../img/otro.png);
+                       background-size: 50% 50%, 50% 50%; background-position: 10% 10%, 80% 10%;} 
+.botones h1 {
+    text-align: center;
+    color: white; 
+    font-family: Tahoma;
+    font-size: 30px; 
+}
+.botones p { 
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.botones:hover {
+    -moz-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+}

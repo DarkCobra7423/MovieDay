@@ -3,9 +3,9 @@
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 use yii\helpers\ArrayHelper;
-use app\models\User;
+use app\models\Usuario;
 
-$user = ArrayHelper::map(User::find()->all(), 'id', 'username');
+$user = ArrayHelper::map(Usuario::find()->all(), 'id', 'username');
 /* @var $this yii\web\View */
 /* @var $model app\models\Profile */
 /* @var $form yii\widgets\ActiveForm */
