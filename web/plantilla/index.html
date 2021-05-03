@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+        <!--<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">-->
+        <!--<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>-->
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+        <link rel="stylesheet" href="css/style.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+        <title>Netflix</title>
+
+        <!-- comment -->
+    
+    <header>
+        <div class="contenedor">
+            <a href="#"><h2 class="logotipo">MovieDay</h2></a>
+            <nav>
+                <a href="#" class="activo">Home</a>
+                <a href="#">TV Series</a>
+                <a href="#">Movies</a>
+                <a href="#">Popular</a>                    
+            </nav>
+            <nav>
+                <a href="#"><i class="fas fa-search sub-nav-logo"></i></a>
+                <a href="#"><i class="fas fa-bell sub-nav-logo"></i></a> 
+                <!---------------->
+
+                <div class="btn-group show-on-hover">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img class="profile-icon" src="images/perfil.png" alt=""> <span class="caret"></span></a> 
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">Manage Profile</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li class="divider"></li>
+                        <li><a href="login.html">Sign Out Of MovieDay</a></li>
+                    </ul>
+                </div>
+                <!------------------->
+            </nav>
+        </div>
+    </header>
+</head>
+
+<body>
+    <main>
+        <div class="pelicula-principal">
+            <div class="contenedor">
+                <h3 class="titulo">La casa de papel</h3>
+                <p class="descripcion">
+                    An enigmatic character named the Professor plans something big: carry out the biggest heist in history. For this he recruits a band of eight people who meet a single requirement, none of them has anything to lose. Five months of imprisonment memorizing every step, every detail, every probability ... and finally, eleven days of confinement in the National Mint, surrounded by police forces and with dozens of hostages in their power to find out if their suicide bet will be everything or nothing.
+                </p>
+                <button role="button" class="boton"><i class="fas fa-play"></i> Play</button>
+                <button role="button" class="boton"><i class="fas fa-info-circle"></i> More Info</button>
+                <span class="span">TV-14</span>
+            </div>
+        </div>
+        <!----<!-- comment -->
+        <div class="peliculas-recomendadas contenedor">
+            <div class="contenedor-titulo-controles">
+                <h3 style="font-size: 17px;">Popular on MovieDay</h3>
+                <div class="indicadores"></div>
+            </div>
+
+            <div class="contenedor-principal">
+                <button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+                <div class="contenedor-carousel">
+
+                    <div class="carousel">
+
+                        <div class="pelicula">
+                            <a href="#"><img src="images/1.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/2.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/3.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/4.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/5.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/6.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/7.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/1.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/2.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/3.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/1.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/2.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/3.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/4.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/5.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/6.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/7.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/1.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/2.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/3.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/4.png" alt=""></a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+            </div>
+        </div>
+        <!-- comment -->
+        <div class="peliculas-recomendadas contenedor">
+            <div class="contenedor-titulo-controles">
+                <h3 style="font-size: 17px;">Actions Movies</h3>
+                <div class="indicadores"></div>
+            </div>
+
+            <div class="contenedor-principal">
+                <button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+                <div class="contenedor-carousel">
+
+                    <div class="carousel">
+
+                        <div class="pelicula">
+                            <a href="#"><img src="images/1.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/2.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/3.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/4.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/5.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/6.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/7.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/1.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/2.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/3.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/1.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/2.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/3.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/4.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/5.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/6.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/7.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/1.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/2.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/3.png" alt=""></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="images/4.png" alt=""></a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+            </div>
+        </div>
+        <!-- comment -->
+
+    </main>
+</body>
+
+<footer>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</footer>
+</html>

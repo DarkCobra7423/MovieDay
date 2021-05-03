@@ -7,8 +7,6 @@ use yii\helpers\Html;
 /* @var $this \yii\web\View */
 /* @var $content string */
 
-AppAsset::register($this);
-
 $this->title = UserManagementModule::t('front', 'Authorization');
 BootstrapAsset::register($this);
 ?>
@@ -26,9 +24,9 @@ BootstrapAsset::register($this);
 <body>
 
 <?php $this->beginBody() ?>
-<?php require_once('header.php'); ?>
+
 <?= $content ?>
-<?php require_once('footer.php'); ?>
+
 <?php $this->endBody() ?>
 </body>
 </html>
